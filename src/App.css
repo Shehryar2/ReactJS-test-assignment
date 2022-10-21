@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: darkgray !important;
+}
+.single__user p {
+  font-size: 14px;
+}
+.single__user h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.single__user h5 {
+  font-size: 20px;
+  line-height: 14px;
+  font-weight: 900;
+}
+.single__user .card .d-flex {
+  z-index: 99999;
+}
+.col-md-5 {
+  text-align: right;
+}
+.single__user .card {
+  border-radius: 12px;
+  border: 3px solid #333;
+}
+.impression {
+  color: orange;
+}
+.conversions {
+  color: cornflowerblue;
+}
+.revenue {
+  color: rgb(24, 145, 24);
+}
+#avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  /* background-color: gray; */
+  color: #fff;
+  font-size: 36px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.highcharts-axis-line,
+.highcharts-tick {
+  display: none;
+}
